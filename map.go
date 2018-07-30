@@ -23,5 +23,9 @@ func main()  {
 		fmt.Print("这是不存在的")
 	}
 
+	for k, v :=range mapOne{
+		fmt.Printf("personSalary[%s] = %d\n", k, v)
+	}
+
 
 }
